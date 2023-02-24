@@ -1,0 +1,212 @@
+body,html{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 100%;
+    width: 100%;
+}
+.container .navbar{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    background:
+    linear-gradient(0, transparent,transparent,rgba(146, 12, 12, 0.4)),
+    linear-gradient(90deg, transparent,transparent,rgba(119, 15, 15, 0.5)),
+    linear-gradient(180deg, transparent,transparent,rgba(132, 7, 7, 0.7)),
+    linear-gradient(260deg, transparent,transparent,rgba(134, 9, 9, 0.6)),
+    linear-gradient(360deg, transparent,transparent,rgba(145, 7, 7, 0.3)),
+    linear-gradient(0,transparent, rgba(145, 7, 7, 0.7)),
+    
+    rgba(2,5,5,.9);
+}
+.compName {
+    display: flex;
+    position: absolute;
+    box-shadow:inset 2px 2px  rgb(141, 3, 3),inset -2px -2px rgb(141, 3, 3);
+    width: 80%;
+    height: 30%;
+    margin: 5% 10%;
+}
+.compName h1{
+    margin: auto;
+    font-size: 100px;
+    opacity: .3;
+}
+.navbar ul {
+    z-index: 100;
+    /* box-shadow:inset 3px 3px .3px  rgb(141, 3, 3),inset -3px -3px .3px rgb(141, 3, 3); */
+    width: 50%;
+    height: 30%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 6%;
+    padding: 0;
+    background: rgba(16, 20, 20, 0.185);
+}
+.navbar ul a{
+    display: flex;
+    width: calc(100%/3);
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.navbar ul a:hover{
+    transition: all 1.1s;
+    background: rgba(75, 74, 74, 0.196);
+}
+.navbar p{
+    margin: auto;
+}
+.container .content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+
+.footer{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 100%;
+    background:
+    linear-gradient(0, transparent,transparent,rgba(146, 12, 12, 0.4)),
+    linear-gradient(90deg, transparent,transparent,rgba(119, 15, 15, 0.5)),
+    linear-gradient(180deg, transparent,transparent,rgba(132, 7, 7, 0.7)),
+    linear-gradient(260deg, transparent,transparent,rgba(134, 9, 9, 0.6)),
+    linear-gradient(360deg, transparent,transparent,rgba(145, 7, 7, 0.3)),
+    linear-gradient(0,transparent, rgba(145, 7, 7, 0.7)),
+    
+    rgba(2,5,5,.9);
+     
+
+}
+
+.newsletter{
+    display: flex;
+    width :100%;
+    height: 20%;
+    box-shadow: 0 1px rgb(75, 74, 74);
+    
+}
+.newsletter .letter-text{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    height: 100%;
+    
+}
+.letter-text p{
+    font-weight: 800;
+    text-align: center;
+    margin: auto;
+}
+  .letertext-area{
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+.newsletter .letertext-area input{
+    outline: none;
+    height: 60%;
+    width: 70%;
+    margin: auto;
+}
+.newsletter .submit-news{
+    height: 100%;
+    width: 30%;
+    display: flex;
+}
+.submit-news button{
+    background: rgb(99, 1, 1);
+    width: 80%;
+    height: 60%;
+    margin: auto;
+    font-size: larger;
+    color: white;
+    box-shadow: 1px 1px rgba(2,5,5,.9),-1px -1px rgba(2,5,5,.9);
+    border: none;
+    
+}
+.submit-news button:hover{
+    background: rgb(119, 2, 2);
+    box-shadow: inset 1px 1px rgba(2,5,5,.9), inset -1px -1px rgba(2,5,5,.9);
+    transition: all 1s;
+}
+
+.three-footer{
+    display: flex;
+    height: 60%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.three-one, .three-two, .three-three{
+    width: calc(100%/3);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.three-one-header{
+    height: 20%;
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.three-one-links{
+    height: 60%;
+    width: 90%;
+    margin: auto;
+
+}
+.three-one-links a{
+    text-decoration: none;
+    color: inherit;
+    height: calc(100%/6);
+    display: block;
+}
+.three-one-links a:hover{
+transition: all 1s;
+text-decoration: underline;
+}
+.social{
+    margin-top: 2%;
+    width: 100%;
+    height: 20%;
+   box-shadow: 0 -1px rgb(75, 74, 74);
+    display:flex;
+}
+.social .followus ,.social .follow-icons{
+    width: 50%;
+    display: flex;
+    
+}
+.followus p{
+
+margin: auto;
+}
+.follow-icons a{
+    height: 40%;
+    width: calc(100%/10);
+    margin: auto;
+    display: flex;
+}
+.follow-icons a img{
+    height:100%;
+    width: 100%;
+    margin: auto;
+}
+.company{
+    box-shadow: 0 -1px rgb(75, 74, 74);
+    display: flex;
+}
+.company p{
+    margin: 0 auto;
+}
+
+
