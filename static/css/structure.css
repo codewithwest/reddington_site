@@ -28,10 +28,13 @@ body,html{
     width: 80%;
     height: 30%;
     margin: 5% 10%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .compName h1{
     margin: auto;
-    font-size: 100px;
+    text-rendering: optimizeSpeed;
+    
+    font-size: 5rem;
     opacity: .3;
 }
 .navbar ul {
@@ -178,21 +181,23 @@ text-decoration: underline;
     margin-top: 2%;
     width: 100%;
     height: 20%;
-   box-shadow: 0 -1px rgb(75, 74, 74);
+    box-shadow: 0 -1px rgb(75, 74, 74);
     display:flex;
+    margin: 0 auto;
 }
 .social .followus ,.social .follow-icons{
-    width: 50%;
+    margin: auto;
+    width: 40%;
     display: flex;
-    
 }
 .followus p{
 
 margin: auto;
 }
 .follow-icons a{
+   
     height: 40%;
-    width: calc(100%/10);
+    width: calc(100%/8);
     margin: auto;
     display: flex;
 }
@@ -208,5 +213,91 @@ margin: auto;
 .company p{
     margin: 0 auto;
 }
+.content{
+    display: none;
+    width: 100%;
+    height: 0%;
+    display: flex;
+}
+.login-register{
+    position: absolute;
+    color: white;
+    background: rgba(28, 1, 1, 0.934);
+    height: 60%;
+    width: 50%;
+    margin: 0 25%;
+    box-shadow: 1px 1px red,-1px -1px red;
+    display: none;
+    flex-direction: column;
+}
+.input-headers{
+    height: 20%;
+    width: 100%;
+    display: flex;
+
+}
+.login-login, .register-register{
+    /* box-shadow: 1px 1px rgb(194, 177, 177),-1px -1px rgb(194, 177, 177); */
+    display: flex;
+    height: 100%;
+    background: none;
+    border: none;
+    width: 50%;
+}
+.register-register{
+    background: rgba(119, 2, 2,.6);
+}
+.input-headers p{
+    margin: auto;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.login-form,.register-form{
+    
+    z-index: 300;
+    height: 90%;
+    width: 100%;
+    display: flex;
+}
+.login-register form{
+    height: 70%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.login-register form input{
+    width: 80%;
+    height: calc(100%/7);
+    margin: auto;
+}
+
+.login-register form button{
+    width: 60%;
+    height: calc(100%/7);
+    background: rgba(119, 15, 15, 0.5);
+    margin: auto;
+    color: white;
+}
+
+.close-auth-div{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 7%;
+    
+}
+.close-auth{
+    font-size: 1.2rem;
+    background: inherit;
+    border: none;
+    color: aliceblue;
+    
+    
+}
+.register-form{
+    display: none;
+}
+
 
 
