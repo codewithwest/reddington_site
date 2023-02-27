@@ -2,6 +2,7 @@ body,html{
     margin: 0;
     height: 100%;
     width: 100%;
+    color: #fff;
 }
 .container{
     height: 100%;
@@ -221,7 +222,7 @@ margin: auto;
 }
 .login-register{
     position: absolute;
-    color: white;
+    
     background: rgba(28, 1, 1, 0.934);
     height: 60%;
     width: 50%;
@@ -243,6 +244,7 @@ margin: auto;
     background: none;
     border: none;
     width: 50%;
+    color: inherit;
 }
 .register-register{
     background: rgba(119, 2, 2,.6);
@@ -259,12 +261,21 @@ margin: auto;
     width: 100%;
     display: flex;
 }
+.register-form{
+    height: 100%;
+}
+
 .login-register form{
     height: 70%;
     width: 70%;
     display: flex;
     flex-direction: column;
     margin: auto;
+}
+.register-form form{
+    height: 85%;
+    
+
 }
 .login-register form input{
     width: 80%;
@@ -277,7 +288,8 @@ margin: auto;
     height: calc(100%/7);
     background: rgba(119, 15, 15, 0.5);
     margin: auto;
-    color: white;
+    color: inherit;
+    border: none;
 }
 
 .close-auth-div{
@@ -291,7 +303,7 @@ margin: auto;
     font-size: 1.2rem;
     background: inherit;
     border: none;
-    color: aliceblue;
+    color: inherit;
     
     
 }
@@ -299,5 +311,25 @@ margin: auto;
     display: none;
 }
 
+.s-uname-alert{
+    font-size: .58rem;
+    margin: 0 auto;
+    text-align: center;
+}
 
 
+@media only screen and (min-width: 800px) {    
+body,html{
+    margin: 0;
+    height: 120%;
+    width: 100%;
+    color: #fff;
+}
+
+.login-register{
+    
+    height: 70%;
+    width: 40%;
+    margin: 15% 35%;
+    
+}}
